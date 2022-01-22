@@ -266,10 +266,9 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 
 }
 
-
 /* Mechanical Walking Rickshaw*/
 
-.richshaw-projects{
+.rickshaw-prototype{
     width: 90%;
     margin: auto;
     text-align: center;
@@ -300,6 +299,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
     margin-top: 1%;
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -367,4 +367,131 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
     overflow: hidden;
     width: 100%;
     height: auto;
+}
+
+
+.rickshaw-test-col{
+    width: 100%;
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin: 0px 10x;
+    
+}
+
+.rickshaw-test-col h3{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.rickshaw-test-col p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    width: 95%;
+    
+}
+
+
+.rickshaw-test-col img{
+    flex-basis: 50%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    height: auto;
+}
+
+.rickshaw-terrain-col{
+    width: 100%;
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin: 0px 10x;
+    
+}
+
+.rickshaw-terrain-col h3{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.rickshaw-terrain-col p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    width: 95%;
+    
+}
+
+
+.rickshaw-terrain-col img{
+    flex-basis: 50%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    height: auto;
+}
+
+.rickshaw-terrain-title-col{
+    width: 100%;
+}
+
+.rickshaw-terrain-title-col h3{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+}
+
+.rickshaw-CAD{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.rickshaw-CAD h2, h3{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+
+.rickshaw-CAD-col img{
+    flex-basis: 50%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    height: auto;
+}
+
+.footer-rickshaw{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer-rickshaw h4{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer-rickshaw .icons .fa{
+
+    color: #ffffff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
 }
