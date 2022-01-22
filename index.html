@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;700&display=swap" rel="stylesheet">  
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
@@ -16,15 +16,17 @@
     <section class="header">
 
         <nav>
+            <!---<a href="index.html"><img src="images/logo.png" alt="Logo" /></a>-->
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <h4>This webpage is a work in progress</h4>
+                
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="#my-projects">PROJECTS</a></li>
+                    <li><a href="index.html#my-projects">PROJECTS</a></li>
 
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+           
         </nav>
 
         <div class="row">
@@ -45,21 +47,21 @@
        
     </section>
 
-    <!----course---->
+    <!----projects---->
 
-    <section class="course">
+    <section class="projects">
         <a id="my-projects">
         <h1>My Projects</h1>
         </a>
-        <div class="course-row">
-            <div class="course-col">
-                <a href="projects.html" style="text-decoration: none"><h3><u>Mechanical Walking Rickshaw</u></h3></a>
+        <div class="projects-row">
+            <div class="projects-col">
+                <a href="mechanical-rickshaw.html" style="text-decoration: none"><h3><u>Mechanical Walking Rickshaw</u></h3></a>
                 <img src="images/richshaw-virtual-prototype.gif" alt="Rickshaw Animation" />
 
                 <p>I worked with a group create a walking rickshaw pulling mechanism that implemented braking, turning, suspension and all-terrain functionality (2021).</p>
                
             </div>
-            <div class="course-col">
+            <div class="projects-col">
                 <a href="projects.html" style="text-decoration: none"><h3><u>Plane Landing Gear</u></h3></a>
                 <img src="images/plane-virtual-prototype.gif" alt="Place Landing Gear Animation" />
                 <p>I worked with a group create a plane landing gear that implemented a fuselage door system, up-locking, down-locking, suspension and braking (2021).</p>
@@ -73,13 +75,12 @@
 
     <section class="footer">
 
-        <h4>Socials</h4>
+        <h4>This webpage was fully programmed using HTML and CSS. Check out my code and my other socials below!</h4>
         
         <div class="icons">
 
-           
-            <a href="https://www.linkedin.com/in/aaron-emmanuel/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
             <a href="https://github.com/AaronEmmanuel" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/aaron-emmanuel/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
             <a href="mailto:aaron.e2020@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-lg"></i></a>
             <a href="https://drive.google.com/file/d/1uHoE3HZj8CZFUvNyPZOM40g2gR1zUT5j/view?usp=sharing" target="_blank"><i class="fa fa-file fa-lg"></i></a>
         </div>
@@ -88,21 +89,6 @@
     </section> 
 
 
-
-
-    <!-----JavaScript for Toggle Menu----->
-
-    <script>
-
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
 
     </script>
 </body>
