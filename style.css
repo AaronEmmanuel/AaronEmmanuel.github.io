@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', serif;
+}
+
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,30,12,0.7),rgba(4, 30, 12, 0.7)), url(images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.rickshaw-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.7)), url(images/rickshaw-background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav img{
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links h4{
+    color: white;
+    
+}
+
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #36f49b;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+
+
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.column {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+   
+    
+}
+
+.column h1 {
+    width: 30%;
+    font-size: 62px;
+    margin: auto;
+    text-align: left;
+    transform:translate(75%);
+}
+
+.column p {
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 10px;
+    transform:translate(75%);
+}
+
+.column a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.column img {
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    width: 25%;
+    height: auto;
+    transform:translate(-40%);
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-btn {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1px 1px;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+}
+
+
+
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.75s;
+}
+
+
+nav .fa {
+    display: none;
+}
+
+
+
+@media(max-width: 700px) {
+
+    .column h1 {
+        font-size: 20px;
+    }
+
+    .column p{
+        font-size: 6px;
+    }
+
+    .column p a{
+        font-size: 6px;
+    }
+
+    .column img{
+        width: 20%;
+        height: auto;
+    }
+
+}
+
+
+.projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.projects h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.projects p{
+    color:#000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.projects-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.projects-col{
+    flex-basis: 31%;
+    background: #e3ffe3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.projects-col h3{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.projects-col:hover{
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.projects-col img{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+    height: auto;
+}
+
+@media(max-width: 700px){
+    .projects-row{
+        flex-direction: column;
+    }
+
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa{
+
+    color: #36f49b;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
+}
+
+
+/* Mechanical Walking Rickshaw*/
+
+.richshaw-projects{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.rickshaw-header h1{
+    color:rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.rickshaw-header h4{
+    color:rgb(255, 255, 255);
+    
+    padding: 10px;
+}
+
+.rickshaw-row{
+    margin-top: 1%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.rickshaw-row-2{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rickshaw-col{
+    width: 100%;
+    flex-basis: 32%;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+.rickshaw-col h3{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.rickshaw-col p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+
+.rickshaw-col img{
+    flex-basis: 32%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.rickshaw-pro-col{
+    width: 100%;
+    flex-basis: 40%;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+.rickshaw-pro-col h3{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+
+.rickshaw-pro-col p{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+
+.rickshaw-pro-col img{
+    flex-basis: 50%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
